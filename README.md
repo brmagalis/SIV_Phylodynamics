@@ -1,2 +1,2 @@
 # SIV_Phyloanatomy_REPxmls
-Representative xmls for xml used to generate empirical tree distribution and HPM Epoch model
+Representative xmls used to 1) generate empirical tree distribution ("N02....") and 2) utilize the HPM Epoch model, incorporating data from multiple SIV-infected macaques ("HPM....").
