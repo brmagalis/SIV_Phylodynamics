@@ -1,0 +1,743 @@
+IQ-TREE multicore version 1.5.5 for Mac OS X 64-bit built Jun  2 2017
+Copyright (c) 2011-2017 by Bui Quang Minh, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, and Arndt von Haeseler.
+
+Host:    ssrb-vpn1-2-48.vpn.ufl.edu (AVX, 8 GB RAM)
+Command: iqtree-omp -s N10_NoBAL.fas -m TEST -bb 10000 -nt AUTO
+Seed:    394847 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Apr 23 14:13:13 2018
+Kernel:  AVX - auto-detect threads (4 CPU cores detected)
+
+Reading alignment file N10_NoBAL.fas ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 347 sequences with 1308 columns and 314 patterns (150 informative sites, 981 constant sites)
+              Gap/Ambiguity  Composition  p-value
+   1  020N10Kc_06     0.46%    passed     99.98%
+   2  020N10Kc_08     0.46%    passed     99.90%
+   3  020N10Kc_09     0.46%    passed    100.00%
+   4  020N10Kc_10     0.46%    passed     99.65%
+   5  020N10Kc_11     0.46%    passed     99.88%
+   6  020N10Kc_12     0.46%    passed     99.90%
+   7  020N10Kc_13     0.46%    passed     99.66%
+   8  020N10Kc_14     0.46%    passed    100.00%
+   9  020N10Kc_15     0.46%    passed     99.98%
+  10  020N10Kc_16     0.46%    passed     99.77%
+  11  020N10Kc_19     0.46%    passed     99.77%
+  12  020N10Kc_20     0.46%    passed     99.88%
+  13  020N10Kc_21     0.46%    passed     99.81%
+  14  020N10Kc_23     0.46%    passed     99.96%
+  15  021N10Bc_01     0.46%    passed     99.94%
+  16  021N10Bc_02     0.46%    passed     99.88%
+  17  021N10Bc_03     0.46%    passed     99.80%
+  18  021N10Bc_04     0.46%    passed     99.94%
+  19  021N10Bc_05     0.46%    passed     99.88%
+  20  021N10Bc_07     0.46%    passed     99.98%
+  21  021N10Bc_08     0.46%    passed     98.91%
+  22  021N10Bc_09     0.46%    passed     99.72%
+  23  021N10Bc_10     0.46%    passed     99.86%
+  24  021N10Bc_11     0.46%    passed    100.00%
+  25  021N10Bc_12     0.46%    passed     99.92%
+  26  021N10Bc_13     0.46%    passed     99.99%
+  27  021N10Bc_15     0.46%    passed     99.98%
+  28  021N10Bc_16     0.46%    passed     99.51%
+  29  021N10Bc_17     0.46%    passed    100.00%
+  30  021N10Bc_19     0.46%    passed    100.00%
+  31  021N10Kc_01     0.46%    passed     99.98%
+  32  021N10Kc_02     0.46%    passed    100.00%
+  33  021N10Kc_03     0.46%    passed     99.65%
+  34  021N10Kc_04     0.46%    passed    100.00%
+  35  021N10Kc_05     0.46%    passed     99.71%
+  36  021N10Oc_01     0.46%    passed     99.37%
+  37  021N10Oc_02     0.46%    passed     99.68%
+  38  021N10Oc_03     0.46%    passed     99.49%
+  39  021N10Oc_04     0.46%    passed     99.65%
+  40  021N10Oc_05     0.46%    passed     99.99%
+  41  021N10Oc_06     0.46%    passed     99.88%
+  42  021N10Oc_07     0.46%    passed     98.47%
+  43  021N10Oc_08     0.46%    passed     99.78%
+  44  021N10Oc_09     0.46%    passed     99.37%
+  45  021N10Oc_10     0.46%    passed     99.98%
+  46  021N10Oc_11     0.46%    passed     99.98%
+  47  021N10Oc_12     0.46%    passed    100.00%
+  48  021N10Oc_13     0.46%    passed     99.53%
+  49  021N10Oc_14     0.46%    passed     99.68%
+  50  021N10Oc_15     0.46%    passed     99.91%
+  51  021N10Oc_16     0.46%    passed     99.79%
+  52  021N10Pc_02     0.46%    passed     99.69%
+  53  021N10Pc_03     0.46%    passed    100.00%
+  54  021N10Pc_04     0.46%    passed     99.88%
+  55  021N10Pc_06     0.46%    passed     99.66%
+  56  021N10Pc_07     0.46%    passed    100.00%
+  57  021N10Pc_09     0.46%    passed     99.91%
+  58  021N10Pc_10     0.46%    passed     99.83%
+  59  021N10Pc_101    0.46%    passed     99.65%
+  60  021N10Pc_104    0.46%    passed     99.99%
+  61  021N10Pc_105    0.46%    passed     99.65%
+  62  021N10Pc_106    0.46%    passed     99.65%
+  63  021N10Pc_107    0.46%    passed     99.94%
+  64  021N10Pc_108    0.46%    passed     99.88%
+  65  021N10Pc_109    0.46%    passed    100.00%
+  66  021N10Pc_11     0.46%    passed     99.98%
+  67  021N10Pc_110    0.46%    passed    100.00%
+  68  021N10Pc_111    0.46%    passed     99.23%
+  69  021N10Pc_112    0.46%    passed    100.00%
+  70  021N10Pc_113    0.46%    passed     99.77%
+  71  021N10Pc_114    0.46%    passed     99.80%
+  72  021N10Pc_115    0.46%    passed     99.67%
+  73  021N10Pc_116    0.46%    passed     99.95%
+  74  021N10Pc_117    0.46%    passed     99.65%
+  75  021N10Pc_118    0.46%    passed     98.91%
+  76  021N10Pc_119    0.46%    passed    100.00%
+  77  021N10Pc_12     0.46%    passed     99.72%
+  78  021N10Pc_13     0.46%    passed     99.77%
+  79  021N10Pc_14     0.46%    passed    100.00%
+  80  021N10Pc_15     0.46%    passed     99.98%
+  81  021N10Pc_16     0.46%    passed    100.00%
+  82  021N10Pc_18     0.46%    passed     99.98%
+  83  021N10Pc_19     0.46%    passed     99.94%
+  84  021N10Pc_20     0.46%    passed     99.96%
+  85  092N10Bc_07     0.46%    passed     99.69%
+  86  092N10Bc_09     0.46%    passed     99.85%
+  87  092N10Bc_10     0.46%    passed     99.98%
+  88  092N10Bc_11     0.46%    passed     99.85%
+  89  092N10Bc_12     0.46%    passed     99.99%
+  90  092N10Bc_13     0.46%    passed     99.29%
+  91  092N10Bc_14     0.46%    passed     99.39%
+  92  092N10Bc_15     0.46%    passed    100.00%
+  93  092N10Bc_17     0.46%    passed    100.00%
+  94  092N10Bc_18     0.46%    passed     99.92%
+  95  092N10Bc_19     0.46%    passed     99.99%
+  96  092N10Kc_01     0.46%    passed     99.87%
+  97  092N10Kc_02     0.46%    passed     99.73%
+  98  092N10Kc_03     0.46%    passed     99.99%
+  99  092N10Kc_05     0.46%    passed     99.72%
+ 100  092N10Kc_08     0.46%    passed     99.80%
+ 101  092N10Kc_09     0.46%    passed     99.64%
+ 102  092N10Kc_10     0.46%    passed     99.40%
+ 103  092N10Kc_11     0.46%    passed     99.82%
+ 104  092N10Kc_12     0.46%    passed     99.73%
+ 105  092N10Kc_13     0.46%    passed     99.27%
+ 106  092N10Kc_14     0.46%    passed     99.93%
+ 107  092N10Kc_15     0.46%    passed     99.96%
+ 108  092N10Kc_17     0.46%    passed     99.72%
+ 109  092N10Kc_19     0.46%    passed     99.95%
+ 110  092N10Kc_20     0.46%    passed     99.79%
+ 111  092N10Oc_02     0.46%    passed     99.72%
+ 112  092N10Oc_03     0.46%    passed     99.72%
+ 113  092N10Oc_04     0.46%    passed     99.78%
+ 114  092N10Pc_101    0.46%    passed     98.79%
+ 115  092N10Pc_103    0.46%    passed     99.67%
+ 116  092N10Pc_104    0.46%    passed     99.99%
+ 117  092N10Pc_105    0.46%    passed     99.99%
+ 118  092N10Pc_106    0.46%    passed     99.69%
+ 119  092N10Pc_107    0.46%    passed     99.88%
+ 120  092N10Pc_108    0.46%    passed     99.98%
+ 121  092N10Pc_109    0.46%    passed     99.91%
+ 122  092N10Pc_112    0.46%    passed     99.88%
+ 123  092N10Pc_113    0.46%    passed     99.27%
+ 124  092N10Pc_114    0.46%    passed     99.97%
+ 125  092N10Pc_116    0.46%    passed     99.56%
+ 126  092N10Pc_117    0.46%    passed     99.98%
+ 127  092N10Pc_118    0.46%    passed     99.39%
+ 128  092N10Pc_119    0.46%    passed    100.00%
+ 129  092N10Pc_120    0.46%    passed     99.92%
+ 130  098N10Bc_20     0.46%    passed     99.32%
+ 131  098N10Bc_22     0.46%    passed     99.99%
+ 132  098N10Bc_23     0.46%    passed     99.96%
+ 133  098N10Bc_24     0.46%    passed     99.72%
+ 134  098N10Bc_25     0.46%    passed     99.54%
+ 135  098N10Bc_26     0.46%    passed     99.95%
+ 136  098N10Bc_27     0.46%    passed     99.72%
+ 137  098N10Bc_28     0.46%    passed     99.98%
+ 138  098N10Bc_30     0.46%    passed     99.92%
+ 139  182N10Bc_01     0.00%    passed     99.80%
+ 140  182N10Bc_02     0.00%    passed     99.95%
+ 141  182N10Bc_03     0.00%    passed     99.92%
+ 142  182N10Bc_04     0.00%    passed     99.83%
+ 143  182N10Bc_05     0.46%    passed     99.88%
+ 144  182N10Bc_06     0.00%    passed     99.91%
+ 145  182N10Bc_07     0.00%    passed     99.88%
+ 146  182N10Bc_09     0.00%    passed     99.83%
+ 147  182N10Bc_10     0.00%    passed     99.92%
+ 148  182N10Bc_11     0.00%    passed     99.92%
+ 149  182N10Bc_12     0.00%    passed     99.99%
+ 150  182N10Bc_13     0.00%    passed     99.61%
+ 151  182N10Bc_14     0.00%    passed     99.87%
+ 152  182N10Bc_18     0.00%    passed     99.74%
+ 153  182N10Bc_19     0.00%    passed     99.49%
+ 154  182N10Bc_21     0.00%    passed     99.74%
+ 155  182N10Bc_23     0.46%    passed     99.64%
+ 156  182N10Bc_24     0.00%    passed     99.74%
+ 157  182N10Kc_02     0.69%    passed     94.89%
+ 158  182N10Kc_03     0.46%    passed     99.79%
+ 159  182N10Kc_05     0.46%    passed     98.72%
+ 160  182N10Kc_06     0.00%    passed     98.10%
+ 161  182N10Kc_08     0.00%    passed     98.71%
+ 162  182N10Kc_09     0.46%    passed     98.01%
+ 163  182N10Kc_11     0.00%    passed     99.49%
+ 164  182N10Kc_12     0.46%    passed     99.08%
+ 165  182N10Kc_13     0.46%    passed     99.08%
+ 166  182N10Kc_15     0.00%    passed     97.85%
+ 167  182N10Kc_17     0.00%    passed     97.85%
+ 168  182N10Kc_18     0.69%    passed     96.14%
+ 169  182N10Kc_19     0.46%    passed     99.71%
+ 170  182N10Kc_20     0.46%    passed     97.18%
+ 171  182N10Kc_21     0.46%    passed     99.04%
+ 172  182N10Kc_22     0.46%    passed     99.71%
+ 173  182N10Kc_23     0.46%    passed     99.08%
+ 174  182N10Kc_24     0.46%    passed     99.23%
+ 175  182N10Oc_01     0.46%    passed     99.32%
+ 176  182N10Oc_02     0.00%    passed     99.49%
+ 177  182N10Oc_03     0.00%    passed     99.52%
+ 178  182N10Pc_101    0.00%    passed     99.87%
+ 179  182N10Pc_102    0.00%    passed     99.72%
+ 180  182N10Pc_104    0.00%    passed     99.91%
+ 181  182N10Pc_107    0.00%    passed     99.89%
+ 182  182N10Pc_108    0.00%    passed     99.80%
+ 183  182N10Pc_109    0.00%    passed     99.96%
+ 184  182N10Pc_110    0.46%    passed     99.78%
+ 185  182N10Pc_111    0.00%    passed     99.88%
+ 186  182N10Pc_112    0.00%    passed     99.88%
+ 187  182N10Pc_113    0.46%    passed     99.91%
+ 188  182N10Pc_114    0.00%    passed     99.74%
+ 189  182N10Pc_115    0.00%    passed     99.95%
+ 190  182N10Pc_116    0.00%    passed     99.88%
+ 191  182N10Pc_117    0.00%    passed     99.99%
+ 192  182N10Pc_118    0.00%    passed     99.87%
+ 193  182N10Pc_119    0.00%    passed     99.31%
+ 194  182N10Pc_120    0.00%    passed     99.87%
+ 195  182N10Pc_121    0.00%    passed     99.92%
+ 196  182N10Pc_122    0.00%    passed     99.83%
+ 197  223N10Ac_101    0.46%    passed     99.42%
+ 198  223N10Ac_102    0.46%    passed     99.27%
+ 199  223N10Ac_103    0.46%    passed     98.95%
+ 200  223N10Ac_104    0.46%    passed     95.68%
+ 201  223N10Ac_105    0.46%    passed     98.73%
+ 202  223N10Ac_106    0.46%    passed     99.72%
+ 203  223N10Ac_107    0.46%    passed     98.95%
+ 204  223N10Ac_108    0.46%    passed     98.95%
+ 205  223N10Ac_109    0.46%    passed     97.73%
+ 206  223N10Ac_110    0.46%    passed     98.93%
+ 207  223N10Ac_111    0.46%    passed     99.45%
+ 208  223N10Ac_113    0.46%    passed     98.54%
+ 209  223N10Ac_114    0.46%    passed     99.90%
+ 210  223N10Ac_115    0.46%    passed     99.72%
+ 211  223N10Ac_118    0.46%    passed     97.87%
+ 212  223N10Ac_119    0.46%    passed     98.93%
+ 213  223N10Ac_121    0.46%    passed     99.72%
+ 214  223N10Ac_122    0.46%    passed     98.95%
+ 215  223N10Ac_123    0.46%    passed     98.95%
+ 216  223N10Ac_124    0.46%    passed     99.27%
+ 217  223N10Bc_01     0.00%    passed     99.39%
+ 218  223N10Bc_02     0.46%    passed     99.29%
+ 219  223N10Bc_03     0.46%    passed     99.49%
+ 220  223N10Bc_04     0.00%    passed     99.88%
+ 221  223N10Bc_05     0.00%    passed     99.92%
+ 222  223N10Bc_06     0.00%    passed     99.80%
+ 223  223N10Bc_07     0.00%    passed     99.92%
+ 224  223N10Bc_08     0.00%    passed     99.29%
+ 225  223N10Bc_09     0.00%    passed     99.99%
+ 226  223N10Bc_10     0.00%    passed     99.95%
+ 227  223N10Bc_11     0.00%    passed     99.75%
+ 228  223N10Bc_13     0.00%    passed     99.95%
+ 229  223N10Bc_14     0.46%    passed     97.48%
+ 230  223N10Bc_15     0.00%    passed     99.68%
+ 231  223N10Bc_16     0.00%    passed     99.98%
+ 232  223N10Bc_17     0.00%    passed     99.80%
+ 233  223N10Bc_19     0.00%    passed     99.95%
+ 234  223N10Bc_20     0.00%    passed     99.62%
+ 235  223N10Bc_21     0.00%    passed     99.77%
+ 236  223N10Bc_23     0.00%    passed     99.80%
+ 237  223N10Fc_101    0.00%    passed     99.96%
+ 238  223N10Fc_102    0.00%    passed     99.95%
+ 239  223N10Fc_103    0.00%    passed     99.98%
+ 240  223N10Fc_104    0.00%    passed     99.83%
+ 241  223N10Fc_105    0.00%    passed     99.96%
+ 242  223N10Fc_106    0.00%    passed     99.83%
+ 243  223N10Fc_107    0.00%    passed     99.96%
+ 244  223N10Fc_108    0.00%    passed     99.83%
+ 245  223N10Fc_110    0.00%    passed     99.96%
+ 246  223N10Fc_111    0.00%    passed     99.96%
+ 247  223N10Fc_112    0.00%    passed     99.92%
+ 248  223N10Fc_114    0.00%    passed     99.96%
+ 249  223N10Fc_116    0.00%    passed     99.95%
+ 250  223N10Fc_117    0.00%    passed     99.96%
+ 251  223N10Fc_118    0.00%    passed     99.95%
+ 252  223N10Fc_119    0.00%    passed     99.96%
+ 253  223N10Fc_121    0.00%    passed     99.95%
+ 254  223N10Fc_120    0.00%    passed     99.95%
+ 255  223N10Fc_122    0.00%    passed     99.81%
+ 256  223N10Fc_123    0.00%    passed     99.96%
+ 257  223N10Fc_125    0.00%    passed     99.02%
+ 258  223N10Kc_02     0.00%    passed     99.98%
+ 259  223N10Fc_126    0.00%    passed     99.96%
+ 260  223N10Kc_03     0.00%    passed     99.82%
+ 261  223N10Kc_05     0.46%    passed     98.82%
+ 262  223N10Kc_06     0.00%    passed     99.96%
+ 263  223N10Kc_07     0.00%    passed     99.92%
+ 264  223N10Kc_09     0.46%    passed     99.90%
+ 265  223N10Kc_12     0.00%    passed     97.89%
+ 266  223N10Kc_15     0.46%    passed     99.55%
+ 267  223N10Kc_16     0.00%    passed     99.32%
+ 268  223N10Kc_17     0.00%    passed     99.49%
+ 269  223N10Kc_18     0.00%    passed     99.54%
+ 270  223N10Kc_19     0.00%    passed     99.58%
+ 271  223N10Kc_20     0.00%    passed     99.92%
+ 272  223N10Kc_21     0.00%    passed     99.48%
+ 273  223N10Oc_01     0.00%    passed     99.37%
+ 274  223N10Oc_02     0.00%    passed     99.75%
+ 275  223N10Oc_03     0.00%    passed    100.00%
+ 276  223N10Oc_04     0.00%    passed     92.65%
+ 277  223N10Oc_05     0.00%    passed     99.35%
+ 278  223N10Oc_06     0.00%    passed     99.95%
+ 279  223N10Oc_07     0.00%    passed     99.80%
+ 280  223N10Oc_08     0.00%    passed     99.95%
+ 281  223N10Oc_11     0.00%    passed     99.99%
+ 282  223N10Oc_12     0.00%    passed     99.80%
+ 283  223N10Oc_13     0.00%    passed     99.95%
+ 284  223N10Oc_14     0.00%    passed    100.00%
+ 285  223N10Oc_15     0.00%    passed     99.54%
+ 286  223N10Oc_16     0.00%    passed     99.96%
+ 287  223N10Oc_17     0.00%    passed     99.80%
+ 288  223N10Oc_19     0.00%    passed     99.78%
+ 289  223N10Oc_20     0.00%    passed     99.80%
+ 290  223N10Oc_21     0.00%    passed     99.24%
+ 291  223N10Oc_22     0.00%    passed     99.92%
+ 292  223N10Oc_23     0.00%    passed     99.95%
+ 293  223N10Pc_102    0.00%    passed     99.98%
+ 294  223N10Pc_103    0.00%    passed     99.81%
+ 295  223N10Pc_104    0.00%    passed     99.83%
+ 296  223N10Pc_105    0.00%    passed     99.95%
+ 297  223N10Pc_106    0.00%    passed     99.01%
+ 298  223N10Pc_107    0.00%    passed     99.75%
+ 299  223N10Pc_108    0.00%    passed     99.74%
+ 300  223N10Pc_109    0.00%    passed     99.47%
+ 301  223N10Pc_110    0.00%    passed     99.89%
+ 302  223N10Pc_111    0.00%    passed     99.91%
+ 303  223N10Pc_112    0.00%    passed     99.45%
+ 304  223N10Pc_114    0.00%    passed     99.80%
+ 305  223N10Pc_115    0.00%    passed     99.80%
+ 306  223N10Pc_116    0.00%    passed     99.95%
+ 307  223N10Pc_117    0.00%    passed     99.98%
+ 308  223N10Pc_118    0.00%    passed     99.80%
+ 309  223N10Pc_119    0.00%    passed     99.80%
+ 310  223N10Pc_120    0.00%    passed    100.00%
+ 311  223N10Pc_121    0.00%    passed     99.95%
+ 312  223N10Pc_122    0.00%    passed     98.66%
+ 313  223N10Tc_102    0.46%    passed     99.42%
+ 314  223N10Tc_103    0.46%    passed     98.83%
+ 315  223N10Tc_104    0.46%    passed     99.42%
+ 316  223N10Tc_105    0.46%    passed     98.77%
+ 317  223N10Tc_106    0.46%    passed     99.42%
+ 318  223N10Tc_107    0.46%    passed     99.01%
+ 319  223N10Tc_108    0.00%    passed     99.88%
+ 320  223N10Tc_112    0.46%    passed     99.76%
+ 321  223N10Tc_113    0.46%    passed     99.01%
+ 322  223N10Tc_116    0.46%    passed     99.50%
+ 323  223N10Tc_117    0.46%    passed     99.42%
+ 324  223N10Tc_119    0.46%    passed     98.95%
+ 325  223N10Tc_121    0.46%    passed     99.27%
+ 326  223N10Tc_122    0.00%    passed     99.88%
+ 327  223N10Tc_123    0.46%    passed     99.74%
+ 328  223N10Zc_101    0.00%    passed     99.87%
+ 329  223N10Zc_102    0.00%    passed     99.87%
+ 330  223N10Zc_104    0.00%    passed     99.68%
+ 331  223N10Zc_105    0.00%    passed     99.01%
+ 332  223N10Zc_106    0.00%    passed     98.52%
+ 333  223N10Zc_107    0.00%    passed     99.92%
+ 334  223N10Zc_108    0.00%    passed     99.12%
+ 335  223N10Zc_109    0.00%    passed     99.68%
+ 336  223N10Zc_110    0.00%    passed     99.01%
+ 337  223N10Zc_112    0.00%    passed     99.12%
+ 338  223N10Zc_113    0.00%    passed     99.21%
+ 339  223N10Zc_114    0.00%    passed     99.82%
+ 340  223N10Zc_115    0.00%    passed     98.63%
+ 341  223N10Zc_116    0.00%    passed     99.69%
+ 342  223N10Zc_117    0.00%    passed     99.45%
+ 343  223N10Zc_118    0.00%    passed     99.61%
+ 344  223N10Zc_119    0.00%    passed     99.01%
+ 345  223N10Zc_120    0.00%    passed     99.98%
+ 346  223N10Zc_121    0.00%    passed     99.99%
+ 347  223N10Zc_122    0.00%    passed     99.30%
+****  TOTAL           0.26%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: 020N10Kc_20 is identical to 020N10Kc_11 but kept for subsequent analysis
+NOTE: 021N10Bc_17 is identical to 020N10Kc_14 but kept for subsequent analysis
+NOTE: 092N10Pc_119 is identical to 021N10Bc_11 but kept for subsequent analysis
+NOTE: 092N10Pc_120 is identical to 021N10Bc_12 but kept for subsequent analysis
+NOTE: 021N10Oc_09 is identical to 021N10Oc_01 but kept for subsequent analysis
+NOTE: 021N10Oc_14 is identical to 021N10Oc_02 but kept for subsequent analysis
+NOTE: 092N10Bc_11 is identical to 092N10Bc_09 but kept for subsequent analysis
+NOTE: 092N10Kc_12 is identical to 092N10Kc_02 but kept for subsequent analysis
+NOTE: 092N10Oc_03 is identical to 092N10Oc_02 but kept for subsequent analysis
+NOTE: 182N10Bc_10 is identical to 182N10Bc_03 but kept for subsequent analysis
+NOTE: 182N10Bc_21 is identical to 182N10Bc_18 but kept for subsequent analysis
+NOTE: 223N10Kc_17 is identical to 182N10Bc_19 but kept for subsequent analysis
+NOTE: 182N10Kc_13 is identical to 182N10Kc_12 but kept for subsequent analysis
+NOTE: 182N10Kc_17 is identical to 182N10Kc_15 but kept for subsequent analysis
+NOTE: 182N10Pc_112 is identical to 182N10Pc_111 but kept for subsequent analysis
+NOTE: 223N10Ac_107 is identical to 223N10Ac_103 but kept for subsequent analysis
+NOTE: 223N10Bc_17 is identical to 223N10Bc_06 but kept for subsequent analysis
+NOTE: 223N10Bc_13 is identical to 223N10Bc_10 but kept for subsequent analysis
+NOTE: 223N10Fc_105 is identical to 223N10Fc_101 but kept for subsequent analysis
+NOTE: 223N10Kc_20 is identical to 223N10Kc_07 but kept for subsequent analysis
+NOTE: 223N10Tc_104 is identical to 223N10Tc_102 but kept for subsequent analysis
+NOTE: 223N10Tc_113 is identical to 223N10Tc_107 but kept for subsequent analysis
+NOTE: 223N10Tc_122 is identical to 223N10Tc_108 but kept for subsequent analysis
+NOTE: 223N10Zc_102 is identical to 223N10Zc_101 but kept for subsequent analysis
+NOTE: 223N10Zc_112 is identical to 223N10Zc_108 but kept for subsequent analysis
+NOTE: 28 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: 021N10Bc_05 (identical to 020N10Kc_11) is ignored but added at the end
+NOTE: 021N10Pc_07 (identical to 020N10Kc_14) is ignored but added at the end
+NOTE: 021N10Pc_14 (identical to 020N10Kc_14) is ignored but added at the end
+NOTE: 021N10Pc_16 (identical to 020N10Kc_14) is ignored but added at the end
+NOTE: 098N10Bc_24 (identical to 092N10Oc_02) is ignored but added at the end
+NOTE: 182N10Bc_11 (identical to 182N10Bc_03) is ignored but added at the end
+NOTE: 182N10Bc_24 (identical to 182N10Bc_18) is ignored but added at the end
+NOTE: 182N10Kc_23 (identical to 182N10Kc_12) is ignored but added at the end
+NOTE: 223N10Ac_108 (identical to 223N10Ac_103) is ignored but added at the end
+NOTE: 223N10Tc_119 (identical to 223N10Ac_103) is ignored but added at the end
+NOTE: 223N10Oc_07 (identical to 223N10Bc_06) is ignored but added at the end
+NOTE: 223N10Oc_12 (identical to 223N10Bc_06) is ignored but added at the end
+NOTE: 223N10Oc_17 (identical to 223N10Bc_06) is ignored but added at the end
+NOTE: 223N10Oc_20 (identical to 223N10Bc_06) is ignored but added at the end
+NOTE: 223N10Pc_114 (identical to 223N10Bc_06) is ignored but added at the end
+NOTE: 223N10Pc_115 (identical to 223N10Bc_06) is ignored but added at the end
+NOTE: 223N10Pc_118 (identical to 223N10Bc_06) is ignored but added at the end
+NOTE: 223N10Pc_119 (identical to 223N10Bc_06) is ignored but added at the end
+NOTE: 223N10Bc_19 (identical to 223N10Bc_10) is ignored but added at the end
+NOTE: 223N10Fc_107 (identical to 223N10Fc_101) is ignored but added at the end
+NOTE: 223N10Fc_110 (identical to 223N10Fc_101) is ignored but added at the end
+NOTE: 223N10Fc_111 (identical to 223N10Fc_101) is ignored but added at the end
+NOTE: 223N10Fc_114 (identical to 223N10Fc_101) is ignored but added at the end
+NOTE: 223N10Fc_117 (identical to 223N10Fc_101) is ignored but added at the end
+NOTE: 223N10Fc_119 (identical to 223N10Fc_101) is ignored but added at the end
+NOTE: 223N10Fc_123 (identical to 223N10Fc_101) is ignored but added at the end
+NOTE: 223N10Fc_126 (identical to 223N10Fc_101) is ignored but added at the end
+NOTE: 223N10Tc_106 (identical to 223N10Tc_102) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to N10_NoBAL.fas.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.040 seconds
+
+NOTE: ModelFinder requires 25 MB RAM!
+ModelFinder will test 88 DNA models (sample size: 1308) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Measuring multi-threading efficiency up to 4 CPU cores
+Increase to 10 rounds for branch lengths
+31 trees examined
+Threads: 1 / Time: 4.011 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -23530
+Threads: 2 / Time: 3.047 sec / Speedup: 1.316 / Efficiency: 66% / LogL: -23530
+Threads: 3 / Time: 3.291 sec / Speedup: 1.219 / Efficiency: 41% / LogL: -23530
+BEST NUMBER OF THREADS: 2
+
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+  1  JC            9949.863     635 21169.726    22371.690    24456.648
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+  2  JC+I          9278.220     636 19828.440    21035.987    23120.538
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+  3  JC+G4         9048.013     636 19368.025    20575.572    22660.123
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+  4  JC+I+G4       8937.034     637 19148.067    20361.220    22445.341
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+  5  F81           9877.690     638 21031.381    22250.161    24333.831
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+  6  F81+I         9205.333     639 19688.667    20913.098    22996.294
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+  7  F81+G4        8981.446     639 19240.891    20465.322    22548.518
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+  8  F81+I+G4      8866.771     640 19013.541    20243.646    22326.344
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+  9  K2P           9447.781     636 20167.562    21375.109    23459.660
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 10  K2P+I         8773.192     637 18820.383    20033.535    22117.657
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 11  K2P+G4        8537.571     637 18349.141    19562.294    21646.416
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 12  K2P+I+G4      8426.322     638 18128.643    19347.424    21431.094
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 13  HKY           9379.162     639 20036.324    21260.756    23343.951
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 14  HKY+I         8735.222     640 18750.445    19980.550    22063.248
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 15  HKY+G4        8477.409     640 18234.818    19464.923    21547.621
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 16  HKY+I+G4      8370.538     641 18023.076    19258.878    21341.055
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 17  TNe           9445.764     637 20165.527    21378.679    23462.801
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 18  TNe+I         8773.461     638 18822.921    20041.701    22125.371
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 19  TNe+G4        8526.547     638 18329.095    19547.875    21631.545
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 20  TNe+I+G4      8422.529     639 18123.059    19347.490    21430.685
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 21  TN            9379.658     640 20039.315    21269.420    23352.118
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 22  TN+I          8723.633     641 18729.265    19965.067    22047.244
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 23  TN+G4         8475.752     641 18233.503    19469.305    21551.482
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 24  TN+I+G4       8369.010     642 18022.020    19263.542    21345.175
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 25  K3P           9447.633     637 20169.267    21382.419    23466.541
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 26  K3P+I         8771.684     638 18819.368    20038.148    22121.818
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 27  K3P+G4        8534.824     638 18345.647    19564.428    21648.098
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 28  K3P+I+G4      8423.434     639 18124.867    19349.298    21432.494
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 29  K3Pu          9377.009     640 20034.018    21264.123    23346.821
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 30  K3Pu+I        8732.645     641 18747.290    19983.092    22065.269
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 31  K3Pu+G4       8472.578     641 18227.156    19462.958    21545.135
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 32  K3Pu+I+G4     8367.147     642 18018.293    19259.815    21341.448
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 33  TPM2          9379.132     640 20038.263    21268.368    23351.066
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 34  TPM2+I        8735.094     641 18752.188    19987.990    22070.167
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 35  TPM2+G4       8475.449     641 18232.899    19468.701    21550.878
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 36  TPM2+I+G4     8370.461     642 18024.922    19266.444    21348.078
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 37  TPM2u         9379.129     640 20038.258    21268.363    23351.061
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 38  TPM2u+I       8735.096     641 18752.191    19987.993    22070.170
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 39  TPM2u+G4      8475.450     641 18232.900    19468.702    21550.879
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 40  TPM2u+I+G4    8370.467     642 18024.934    19266.456    21348.090
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 41  TPM3          9380.242     640 20040.483    21270.588    23353.286
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 42  TPM3+I        8734.784     641 18751.568    19987.369    22069.547
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 43  TPM3+G4       8475.450     641 18232.900    19468.702    21550.879
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 44  TPM3+I+G4     8368.782     642 18021.563    19263.085    21344.719
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 45  TPM3u         9379.886     640 20039.772    21269.876    23352.574
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 46  TPM3u+I       8734.784     641 18751.567    19987.369    22069.547
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 47  TPM3u+G4      8475.398     641 18232.796    19468.597    21550.775
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 48  TPM3u+I+G4    8368.783     642 18021.566    19263.087    21344.721
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 49  TIMe          9443.825     638 20163.650    21382.431    23466.101
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 50  TIMe+I        8771.398     639 18820.795    20045.227    22128.422
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 51  TIMe+G4       8524.515     639 18327.031    19551.462    21634.658
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 52  TIMe+I+G4     8420.492     640 18120.985    19351.090    21433.788
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 53  TIM           9376.200     641 20034.400    21270.201    23352.379
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 54  TIM+I         8721.030     642 18726.060    19967.582    22049.216
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 55  TIM+G4        8472.261     642 18228.522    19470.044    21551.678
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 56  TIM+I+G4      8365.500     643 18016.999    19264.264    21345.331
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 57  TIM2e         9445.873     638 20167.747    21386.527    23470.197
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 58  TIM2e+I       8772.766     639 18823.532    20047.963    22131.159
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 59  TIM2e+G4      8526.118     639 18330.235    19554.666    21637.862
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 60  TIM2e+I+G4    8421.795     640 18123.591    19353.696    21436.393
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 61  TIM2          9378.429     641 20038.858    21274.660    23356.837
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 62  TIM2+I        8723.598     642 18731.197    19972.718    22054.352
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 63  TIM2+G4       8475.344     642 18234.688    19476.210    21557.843
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 64  TIM2+I+G4     8368.637     643 18023.275    19270.540    21351.606
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 65  TIM3e         9445.781     638 20167.562    21386.342    23470.013
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 66  TIM3e+I       8773.245     639 18824.489    20048.920    22132.116
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 67  TIM3e+G4      8526.572     639 18331.143    19555.574    21638.770
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 68  TIM3e+I+G4    8422.467     640 18124.934    19355.039    21437.737
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 69  TIM3          9379.089     641 20040.178    21275.979    23358.157
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 70  TIM3+I        8723.223     642 18730.446    19971.968    22053.602
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 71  TIM3+G4       8474.622     642 18233.244    19474.766    21556.399
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 72  TIM3+I+G4     8366.643     643 18019.286    19266.551    21347.617
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 73  TVMe          9447.569     639 20173.138    21397.570    23480.765
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 74  TVMe+I        8770.540     640 18821.079    20051.184    22133.882
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 75  TVMe+G4       8533.835     640 18347.670    19577.775    21660.473
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 76  TVMe+I+G4     8422.222     641 18126.444    19362.246    21444.424
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 77  TVM           9376.050     642 20036.100    21277.621    23359.255
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 78  TVM+I         8732.087     643 18750.175    19997.440    22078.506
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 79  TVM+G4        8471.787     643 18229.574    19476.839    21557.906
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 80  TVM+I+G4      8365.964     644 18019.927    19272.959    21353.435
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 81  SYM           9444.065     640 20168.130    21398.235    23480.933
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 82  SYM+I         8769.831     641 18821.661    20057.463    22139.641
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 83  SYM+G4        8523.539     641 18329.078    19564.880    21647.057
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 84  SYM+I+G4      8419.240     642 18122.479    19364.001    21445.635
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 85  GTR           9375.708     643 20037.416    21284.681    23365.747
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 86  GTR+I         8720.587     644 18729.173    19982.205    22062.681
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 87  GTR+G4        8471.551     644 18231.102    19484.134    21564.610
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 88  GTR+I+G4      8363.888     645 18017.775    19276.597    21356.460
+Akaike Information Criterion:           TIM+I+G4
+Corrected Akaike Information Criterion: HKY+I+G4
+Bayesian Information Criterion:         HKY+I+G4
+Best-fit model: HKY+I+G4 chosen according to BIC
+
+All model information printed to N10_NoBAL.fas.model
+CPU time for ModelFinder: 113.153 seconds (0h:1m:53s)
+Wall-clock time for ModelFinder: 58.297 seconds (0h:0m:58s)
+Generating 10000 samples for ultrafast bootstrap (seed: 394847)...
+
+NOTE: 25 MB RAM (0 GB) is required!
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.546, 0.326 / LogL: -8371.810
+Init pinv, alpha: 0.083, 1.000 / Estimate: 0.544, 0.325 / LogL: -8371.851
+Init pinv, alpha: 0.167, 1.000 / Estimate: 0.544, 0.325 / LogL: -8371.855
+Init pinv, alpha: 0.250, 1.000 / Estimate: 0.544, 0.325 / LogL: -8371.873
+Init pinv, alpha: 0.333, 1.000 / Estimate: 0.547, 0.328 / LogL: -8371.844
+Init pinv, alpha: 0.417, 1.000 / Estimate: 0.544, 0.325 / LogL: -8371.928
+Init pinv, alpha: 0.500, 1.000 / Estimate: 0.547, 0.327 / LogL: -8371.908
+Init pinv, alpha: 0.583, 1.000 / Estimate: 0.573, 0.356 / LogL: -8371.894
+Init pinv, alpha: 0.667, 1.000 / Estimate: 0.576, 0.360 / LogL: -8372.007
+Init pinv, alpha: 0.750, 1.000 / Estimate: 0.578, 0.362 / LogL: -8372.156
+Optimal pinv,alpha: 0.546, 0.326 / LogL: -8371.810
+
+Parameters optimization took 21.133 sec
+Computing ML distances based on estimated model parameters... 1.007 sec
+Computing BIONJ tree...
+0.136 seconds
+Log-likelihood of BIONJ tree: -8333.449
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 5.144 second
+Computing log-likelihood of 98 initial trees ... 6.812 seconds
+Current best score: -8289.750
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -8270.631
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -8263.809
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -8260.636
+Iteration 10 / LogL: -8271.270 / Time: 0h:2m:40s
+Iteration 20 / LogL: -8279.920 / Time: 0h:3m:42s
+Finish initializing candidate tree set (20)
+Current best tree score: -8260.636 / CPU time: 145.081
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -8253.839
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -8250.113
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -8243.785
+Iteration 30 / LogL: -8252.988 / Time: 0h:5m:2s (0h:13m:38s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -8240.172
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -8234.208
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 33: -8233.964
+Iteration 40 / LogL: -8237.301 / Time: 0h:6m:17s (0h:12m:41s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 47: -8233.903
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 48: -8229.331
+Iteration 50 / LogL: -8253.559 / Time: 0h:7m:28s (0h:13m:1s left)
+Log-likelihood cutoff on original alignment: -8327.054
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 52: -8228.470
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 54: -8227.445
+Iteration 60 / LogL: -8232.444 / Time: 0h:9m:13s (0h:13m:8s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 65: -8226.578
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 69: -8223.999
+Iteration 70 / LogL: -8238.946 / Time: 0h:10m:31s (0h:13m:42s left)
+Iteration 80 / LogL: -8231.300 / Time: 0h:11m:41s (0h:12m:4s left)
+Iteration 90 / LogL: -8236.184 / Time: 0h:12m:58s (0h:10m:39s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 98: -8221.180
+Iteration 100 / LogL: -8227.806 / Time: 0h:14m:25s (0h:13m:19s left)
+Log-likelihood cutoff on original alignment: -8324.896
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.974
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 104: -8219.841
+Iteration 110 / LogL: -8221.144 / Time: 0h:16m:14s (0h:13m:9s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 115: -8215.732
+Iteration 120 / LogL: -8251.826 / Time: 0h:17m:47s (0h:13m:25s left)
+Iteration 130 / LogL: -8223.994 / Time: 0h:19m:32s (0h:12m:14s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 132: -8215.598
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 137: -8214.812
+Iteration 140 / LogL: -8235.826 / Time: 0h:21m:1s (0h:13m:59s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 144: -8214.018
+Iteration 150 / LogL: -8220.201 / Time: 0h:22m:25s (0h:13m:31s left)
+Log-likelihood cutoff on original alignment: -8324.896
+Iteration 160 / LogL: -8217.869 / Time: 0h:24m:4s (0h:12m:12s left)
+Iteration 170 / LogL: -8221.217 / Time: 0h:25m:22s (0h:10m:40s left)
+Iteration 180 / LogL: -8217.034 / Time: 0h:26m:41s (0h:9m:11s left)
+Iteration 190 / LogL: -8226.114 / Time: 0h:27m:57s (0h:7m:42s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 195: -8212.261
+Iteration 200 / LogL: -8225.376 / Time: 0h:29m:13s (0h:13m:29s left)
+Log-likelihood cutoff on original alignment: -8324.896
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.959
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 210 / LogL: -8219.611 / Time: 0h:30m:57s (0h:12m:54s left)
+Iteration 220 / LogL: -8215.450 / Time: 0h:32m:25s (0h:11m:29s left)
+Iteration 230 / LogL: -8236.385 / Time: 0h:33m:44s (0h:10m:0s left)
+Iteration 240 / LogL: -8213.757 / Time: 0h:35m:1s (0h:8m:32s left)
+Iteration 250 / LogL: -8219.733 / Time: 0h:36m:23s (0h:7m:6s left)
+Log-likelihood cutoff on original alignment: -8324.896
+Iteration 260 / LogL: -8230.702 / Time: 0h:38m:14s (0h:5m:45s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 261: -8209.929
+Iteration 270 / LogL: -8213.313 / Time: 0h:39m:33s (0h:13m:3s left)
+Iteration 280 / LogL: -8213.129 / Time: 0h:41m:0s (0h:11m:37s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 284: -8207.353
+Iteration 290 / LogL: -8211.210 / Time: 0h:42m:33s (0h:13m:31s left)
+Iteration 300 / LogL: -8214.241 / Time: 0h:43m:59s (0h:12m:5s left)
+Log-likelihood cutoff on original alignment: -8324.896
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.985
+NOTE: UFBoot does not converge, continue at least 100 more iterations
